@@ -3,7 +3,7 @@
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "description": "Simple and Easy to use Compass Edu wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "ArtieFuzzz",
   "packageManager": "yarn@3.2.0",
   "scripts": {
@@ -20,5 +20,9 @@
   "keywords": [
     "compass",
     "puppeteer"
+  ],
+  "files": [
+    "build",
+    "!build/tsconfig.tsbuildinfo"
   ]
 }
