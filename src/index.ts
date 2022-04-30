@@ -43,7 +43,8 @@ export class North {
 
     await this.page.waitForTimeout(3750)
 
-    await this.page.click('a[class="x-btn x-unselectable x-btn-toolbar x-box-item x-toolbar-item x-btn-blue-button-toolbar-small x-icon x-btn-icon x-btn-blue-button-toolbar-small-icon"]').catch(() => console.log('That fucked up'))
+    // This was for testing purposes
+    // await this.page.click('a[class="x-btn x-unselectable x-btn-toolbar x-box-item x-toolbar-item x-btn-blue-button-toolbar-small x-icon x-btn-icon x-btn-blue-button-toolbar-small-icon"]').catch(() => console.log('That fucked up'))
 
     await this.page.waitForTimeout(5000)
   }
